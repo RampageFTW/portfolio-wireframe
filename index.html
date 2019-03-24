@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <meta name="description" content="My portfolio project">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="about.css" rel="stylesheet" type="text/css" />
+    <link href="project.css" rel="stylesheet" type="text/css" />
+    <link href="timeline.css" rel="stylesheet" type="text/css" />
+    <link href="contactMe.css" rel="stylesheet" type="text/css" />
+    <link href="footer.css" rel="stylesheet" type="text/css" />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role="banner">
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+    </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home page</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About me</a>
+          </li>
+          <li>
+            <a href="#project" class="nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="landing-text">
+        <h1>Lets bring your ideas to life</h1>
+        <h6>Web Developer</h6>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img">
+          <img src="#" alt="profile picture">
+        </div>
+        <div class="about-details">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            Hello there, I'm Carlos. 
+            A passionate Full Stack Web Developer that loves to bring your ideas to life on the web. 
+          </p>
+          <div class="social-media">
+              <ul class="nav-list">
+                <li>
+                  <a href="#" target="_blank" class="icon-link">
+                  <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/RampageFTW" target="_blank" class="icon-link">
+                  <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="halokid626@hotmail.com" target="_blank" class="icon-link">
+                  <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Projects</h1>
+          <h6>My built projects</h6>
+        </div>
+        <div class="project-item">
+          <div class="project-img has-margin-right">
+            <img src="images/projectitem1.png" alt="">
+          </div>
+          <div class="project-description">
+            <h6>html, css, js</h6>
+            <h1>Quiz App</h1>
+            <p>
+              A ten question quiz app about a young rapper that made it big by the age of 17 and influenced many rappers after him
+to copy his style, music, and even a part of his name. 
+The questions are all about this rapper and to see if you are truly a fan or someone that has no idea who this rapper is.
+            </p>
+            <a href="" class="cta">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-description">
+              <h6>Web Development</h6>
+              <h1>Coming Soon</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur 
+                Lorem ipsum dolor, sit amet consectetur
+                Lorem ipsum dolor, sit amet consectetur
+              </p>
+              <a href="" class="cta">View Details</a>
+            </div>
+            <div class="project-img">
+              <img src="images/projectitem2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-img has-margin-right">
+              <img src="images/projectitem3.jpg" alt="">
+            </div>
+            <div class="project-description">
+              <h6>Web Development</h6>
+              <h1>Coming Soon</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur 
+                Lorem ipsum dolor, sit amet consectetur
+                Lorem ipsum dolor, sit amet consectetur
+              </p>
+              <a href="" class="cta">View Details</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <h1>Work Experience</h1>
+            <h6>Past and current Jobs</h6>
+          </div>
+          <div class="timeline">
+            <ul>
+              <li class="date" data-date="2018-Present">
+                <h1>Penske Motor Group</h1>
+                <p>
+                  Valet at Longo Lexus. I attend guests and treat them with upmost respect and take care of their vehicle.
+                </p>
+              </li>
+
+              <li class="date" data-date="2019-Present">
+                  <h1>Thinkful</h1>
+                  <p>
+                    Student at Thinkful. Studying to become a web developer.
+                  </p>
+                </li>
+            </ul>
+          </div>
+
+    <section class="contact" id="contact">
+        <div class="container">
+          <div class="section-heading">
+            <h1>Contact Me</h1>
+            <h6>Let's bring your ideas to life</h6>
+          </div>
+          <form id="contact-form" action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name..." required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email..." required>
+            <label for="email">Email:</label>
+            <label for="subject">Subject:</label>
+            <textarea name="subject" class="form-control" id="subject" cols="10" rows="10"></textarea>
+            <input class="form-control submit" type="submit" value="Submit">
+          </form>
+        </div>  
+    </section>
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <p>&copy; 2019 Carlos Segoviano</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

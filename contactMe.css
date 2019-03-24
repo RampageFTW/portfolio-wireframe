@@ -1,0 +1,30 @@
+/* Start Contact Me*/
+.contact {
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+  background-color: gray;
+}
+
+.form label {
+  font-size: 1.5rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 5px;
+}
+
+input[type="submit"] {
+  width: initial;
+  color: #eee;
+  padding: 1rem 2rem;
+  border-radius: .8rem;
+  cursor: pointer;
+}
+/* End Contact Me*/
